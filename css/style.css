@@ -9,20 +9,45 @@ body {
     flex-direction: column;
 }
 
+.brand-logo {
+    font-family: 'Pacifico', cursive;
+}
+
 .outline {
     border: 3px dotted red;
 }
 
 header {
     height: 200px;
+    background-image: url(/Users/jonathyncarter/Desktop/personal-website/imgs/banner.jpg);
+    background-size: cover
 }
 main {
     flex-grow: 1;
 }
 
 footer {
+    
     display: flex;
     justify-content: center;
-    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
 
+.page-footer {
+    padding: 0;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer section a {
+    color: white;
+}
+
+i {
+    font-size: 30px;
+    margin: 10px 0px 10px 5px;
 }
